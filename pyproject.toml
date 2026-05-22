@@ -1,0 +1,62 @@
+[build-system]
+requires = ["hatchling>=1.27.0"]
+build-backend = "hatchling.build"
+
+[project]
+name = "kinatio"
+version = "1.0.0"
+description = "Terminal system observability center for Linux host state, health, and reporting."
+readme = "README.md"
+requires-python = ">=3.12"
+license = { text = "MIT" }
+authors = [
+  { name = "Bubzy_Wubzy" }
+]
+classifiers = [
+  "Development Status :: 5 - Production/Stable",
+  "Environment :: Console",
+  "Framework :: AsyncIO",
+  "Intended Audience :: System Administrators",
+  "License :: OSI Approved :: MIT License",
+  "Operating System :: POSIX :: Linux",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.12",
+  "Topic :: System :: Monitoring",
+  "Topic :: System :: Systems Administration"
+]
+dependencies = [
+  "psutil>=6.0.0",
+  "pydantic>=2.11.0",
+  "rich>=13.9.0",
+  "textual>=0.63.0",
+  "typing-extensions>=4.12.0"
+]
+
+[project.urls]
+Homepage = "https://github.com/bubzy/kinatio"
+Repository = "https://github.com/bubzy/kinatio"
+Documentation = "https://github.com/bubzy/kinatio#readme"
+Changelog = "https://github.com/bubzy/kinatio/blob/main/CHANGELOG.md"
+Contributing = "https://github.com/bubzy/kinatio/blob/main/CONTRIBUTING.md"
+Security = "https://github.com/bubzy/kinatio/blob/main/SECURITY.md"
+Issues = "https://github.com/bubzy/kinatio/issues"
+
+[project.optional-dependencies]
+dev = [
+  "build>=1.2.2",
+  "pytest>=8.3.0",
+  "pytest-asyncio>=0.26.0",
+  "ruff>=0.11.0",
+  "textual-dev>=1.6.0"
+]
+
+[project.scripts]
+kinatio = "kinatio.__main__:main"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+asyncio_mode = "auto"
+
+[tool.ruff]
+line-length = 100
+target-version = "py312"

@@ -1,0 +1,47 @@
+# Local environments
+.venv/
+venv/
+.env
+.env.*
+.envrc
+.python-version
+.direnv/
+
+# Python caches and artifacts
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.pyre/
+.pytype/
+.hypothesis/
+.tox/
+.nox/
+
+# Coverage and test output
+.coverage
+.coverage.*
+coverage.xml
+htmlcov/
+
+# Build and packaging output
+build/
+dist/
+site/
+pip-wheel-metadata/
+*.egg-info/
+.eggs/
+
+# Local tooling scratch
+.cache/
+
+# Editor and IDE files
+.vscode/
+.idea/
+
+# OS-generated files
+.DS_Store
+Thumbs.db
