@@ -33,5 +33,5 @@ The `1.0.0` entry captures the current v1 baseline, and `Unreleased` tracks foll
   - Standardized packaging metadata, runtime version exposure, tests, and documentation on canonical version `1.0.0`.
   - Promoted release metadata to a production/stable v1 classification for the observe-only public surface.
 
-[Unreleased]: https://github.com/bubzy/kinatio/compare/v1.0.0...HEAD
-[1.0.0]: https://github.com/bubzy/kinatio/releases/tag/v1.0.0
+[Unreleased]: https://github.com/bubzywubzy/kinatio/compare/v1.0.0...HEAD
+[1.0.0]: https://github.com/bubzywubzy/kinatio/releases/tag/v1.0.0

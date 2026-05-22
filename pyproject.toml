@@ -33,13 +33,13 @@ dependencies = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/bubzy/kinatio"
-Repository = "https://github.com/bubzy/kinatio"
-Documentation = "https://github.com/bubzy/kinatio#readme"
-Changelog = "https://github.com/bubzy/kinatio/blob/main/CHANGELOG.md"
-Contributing = "https://github.com/bubzy/kinatio/blob/main/CONTRIBUTING.md"
-Security = "https://github.com/bubzy/kinatio/blob/main/SECURITY.md"
-Issues = "https://github.com/bubzy/kinatio/issues"
+Homepage = "https://github.com/bubzywubzy/kinatio"
+Repository = "https://github.com/bubzywubzy/kinatio"
+Documentation = "https://github.com/bubzywubzy/kinatio#readme"
+Changelog = "https://github.com/bubzywubzy/kinatio/blob/main/CHANGELOG.md"
+Contributing = "https://github.com/bubzywubzy/kinatio/blob/main/CONTRIBUTING.md"
+Security = "https://github.com/bubzywubzy/kinatio/blob/main/SECURITY.md"
+Issues = "https://github.com/bubzywubzy/kinatio/issues"
 
 [project.optional-dependencies]
 dev = [
